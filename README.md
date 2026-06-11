@@ -34,7 +34,7 @@
 - **Commitment Outcomes** — whether clear next steps and prescribing commitments were reached
 - **HCP Sentiment** — how the HCP reacted to each key message dimension
 
-The system supports two pharmaceutical products out of the box — **Skytrofa** (growth hormone deficiency) and **Yorvipath** (chronic hypoparathyroidism) — both from Ascendis Pharma, with evaluations conducted in German.
+The system supports two pharmaceutical client products out of the box - with evaluations conducted in German.
 
 ---
 
@@ -223,8 +223,8 @@ Triggers single-call evaluation pipeline asynchronously.
   "s3_path": "s3://bucket/audio/call.m4a",
   "language": "de-DE",
   "projectCode": "4170DK0001",
-  "customer": "Skytrofa",
-  "product": "Skytrofa",
+  "customer": "ofa",
+  "product": "Product",
   "region": "us-east-1",
   "is_consent": "Yes"
 }
